@@ -15,11 +15,11 @@ export default function Home() {
       </Head>
       <main>
         <Navbar />
-        <div className="flex justify-center items-center  border-4 mx-12 my-16">
-          <div className="w-2/5">
+        <div className="flex justify-center items-center gap-10 border-4 mx-12 mb-16 max-xl:flex-col">
+          <div className="">
             <Profile />
           </div>
-          <div className="w-2/5">
+          <div className="">
             <Pd />
           </div>
         </div>

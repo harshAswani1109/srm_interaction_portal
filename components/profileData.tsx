@@ -3,9 +3,7 @@ import React from "react";
 const Pd = () => {
   return (
     <div>
-      <div className="flex flex-col justify-center items-center"></div>
-
-      <div className="flex justify-center content-center h-80 my-24 relative gap-12">
+      <div className="flex justify-center content-center h-80 mb-24 mt-12 relative ">
         <div className="h-full ">
           <div className=" h-1/2 w-72 px-6 rounded-lg" id="background">
             <div className="py-3 font-bold text-lg">Prof. Vadivu G</div>

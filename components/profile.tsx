@@ -4,10 +4,10 @@ import img1 from "../../srm-interaction-portal/public/assets/img1.jpg";
 
 const Profile = () => {
   return (
-    <div className="flex flex-col justify-center gap-20">
+    <div className="flex flex-col justify-center items-center gap-10">
       <Link href="/">
         <div
-          className="flex items-center justify-center w-64 h-64 duration-500 rounded-lg hover:items-start hover:pt-10 hover:h-96 hover:w-72"
+          className="flex items-center justify-center w-64 h-64 duration-500 rounded-lg hover:items-start hover:pt-10 hover:h-96 hover:w-72 max-xl:mt-10"
           id="background"
         >
           <div className="relative inline-block transition duration-500 ease-in-out group delay-10 hover:-translate-y-3 hover:scale-110">
