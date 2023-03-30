@@ -2,7 +2,9 @@ import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../../components/navbar";
 import Footer from "../../components/footer";
-
+import Pd from "../../components/profileData";
+import Profile from "../../components/profile";
+import Mi from "../../components/moreInfo";
 export default function Home() {
   return (
     <>
@@ -13,7 +15,15 @@ export default function Home() {
       </Head>
       <main>
         <Navbar />
-        <div>Index_Page</div>
+        <div className="flex justify-center items-center  border-4 mx-12 my-16">
+          <div className="w-2/5">
+            <Profile />
+          </div>
+          <div className="w-2/5">
+            <Pd />
+          </div>
+        </div>
+        <Mi />
         <Footer />
       </main>
     </>

@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply w-full min-h-screen;
+}
+#background {
+  background: linear-gradient(
+      90.17deg,
+      #ffea2c -25.86%,
+      #ff7a5d 44.14%,
+      #179ebb 104.74%,
+      #ff0000 149.67%
+    ),
+    #ffffff;
+}
