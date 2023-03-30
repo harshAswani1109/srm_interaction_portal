@@ -30,28 +30,25 @@ const Navbar = () => {
                 className=" justify-center items-center right-[2px] w-64 h-60 gap-3 rounded-lg text-black font-semibold absolute flex flex-col"
                 id="background"
               >
-                <ul
-                  className=" text-xl tracking-wider text-center mt-10"
-                  id="hoverText "
-                >
-                  HOME
-                </ul>
-                <ul
-                  className=" text-xl tracking-wider text-center"
-                  id="hoverText "
-                >
-                  Login as Faculty
-                </ul>
-                <ul
-                  className=" text-xl tracking-wider text-center "
-                  id="hoverText "
-                >
-                  Login as Nodal Officer
-                </ul>
+                <a href="/">
+                  <ul
+                    className="font-Montserrat  not-italic text-xl tracking-wider "
+                    id="hoverText "
+                  >
+                    H O M E
+                  </ul>
+                </a>
 
-                <button className="w-40  font-semibold text-white not-italic my-10 py-2 tracking-wider bg-black rounded-full">
-                  Login as
-                </button>
+                <a href="/nodalOfficer">
+                  <button className=" font-Montserrat font-semibold not-italic text-xl tracking-wider text-black  py-2 px-4 rounded-full">
+                    Login as Nodal Officer
+                  </button>
+                </a>
+                <a href="/faculty">
+                  <button className=" font-Montserrat font-semibold not-italic text-xl tracking-wider text-black  py-2 px-4 rounded-full">
+                    Login as Faculty
+                  </button>
+                </a>
               </div>
             ) : (
               ""
@@ -59,30 +56,31 @@ const Navbar = () => {
           </div>
         </div>
         <div className="max-lg:hidden flex justify-center items-center gap-8">
-          <ul
-            className="font-Montserrat font-normal not-italic text-xl tracking-wider "
-            id="hoverText "
-          >
-            HOME
-          </ul>
-          <ul
-            className="font-Montserrat font-normal not-italic text-xl"
-            id="hoverText "
-          >
-            Login as Nodal Officer
-          </ul>
-          <ul
-            className="font-Montserrat font-normal not-italic text-xl tracking-wider "
-            id="hoverText "
-          >
-            Login as Faculty
-          </ul>
-          <button
-            className=" font-Montserrat font-semibold not-italic text-xl tracking-wider text-black  py-2 px-4 rounded-full"
-            id="background"
-          >
-            REGISTER NOW
-          </button>
+          <a href="/">
+            <ul
+              className="font-Montserrat font-normal not-italic text-xl tracking-wider "
+              id="hoverText "
+            >
+              HOME
+            </ul>
+          </a>
+
+          <a href="/nodalOfficer">
+            <button
+              className=" font-Montserrat font-semibold not-italic text-xl tracking-wider text-black  py-2 px-4 rounded-full"
+              id="background"
+            >
+              Login as Nodal Officer
+            </button>
+          </a>
+          <a href="/faculty">
+            <button
+              className=" font-Montserrat font-semibold not-italic text-xl tracking-wider text-black  py-2 px-4 rounded-full"
+              id="background"
+            >
+              Login as Faculty
+            </button>
+          </a>
         </div>
       </div>
     </nav>
