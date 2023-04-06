@@ -1,4 +1,3 @@
-import { Component } from "react";
 import { BsGraphUpArrow } from "react-icons/bs";
 
 const Impact = () => {

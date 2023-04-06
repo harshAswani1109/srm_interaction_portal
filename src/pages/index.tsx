@@ -15,8 +15,8 @@ export default function Home() {
       </Head>
       <main>
         <Navbar />
-        <div className="flex justify-center items-center flex-col">
-          <div className="flex justify-center items-center flex-row gap-24">
+        <div className="flex justify-center items-center flex-col my-10">
+          <div className="flex justify-center items-center flex-row gap-10 max-xl:flex-col">
             <FacultyComponent />
             <ScholarResources />
             <Impact />

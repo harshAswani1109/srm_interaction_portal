@@ -1,4 +1,3 @@
-import { Component } from "react";
 import { ImUserTie } from "react-icons/im";
 
 const FacultyComponent = () => {
