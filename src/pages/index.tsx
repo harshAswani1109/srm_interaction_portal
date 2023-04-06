@@ -4,6 +4,7 @@ import Navbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer";
 import FacultyComponent from "../../components/landingComponents/faculty";
 import ScholarResources from "../../components/landingComponents/resources";
+import Impact from "../../components/landingComponents/impact";
 export default function Home() {
   return (
     <>
@@ -14,9 +15,13 @@ export default function Home() {
       </Head>
       <main>
         <Navbar />
-        <div className="flex justify-center items-center flex-row">
-          <FacultyComponent />
-          <ScholarResources />
+        <div className="flex justify-center items-center flex-col">
+          <div className="flex justify-center items-center flex-row gap-24">
+            <FacultyComponent />
+            <ScholarResources />
+            <Impact />
+          </div>
+          <div className="flex justify-evenly items-center flex-row"></div>
         </div>
         <Footer />
       </main>
