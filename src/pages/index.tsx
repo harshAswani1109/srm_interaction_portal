@@ -7,6 +7,7 @@ import ScholarResources from "../../components/landingComponents/resources";
 import Impact from "../../components/landingComponents/impact";
 import Department from "../../components/landingComponents/department";
 import Publications from "../../components/landingComponents/publications";
+import Employees from "../../components/landingComponents/topEmployee";
 export default function Home() {
   return (
     <>
@@ -23,7 +24,9 @@ export default function Home() {
             <ScholarResources />
             <Impact />
           </div>
-          <div className="flex justify-center items-center flex-row "></div>
+          <div className="flex justify-center items-center flex-row ">
+            <Employees />
+          </div>
           <div className="flex justify-evenly items-center flex-row gap-10 max-xl:flex-col">
             <Department />
             <Publications />
