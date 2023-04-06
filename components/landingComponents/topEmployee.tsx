@@ -18,7 +18,7 @@ const Employees = () => {
           <ul className="flex justify-center items-center gap-4">
             <span>Citations</span>
             <div className="flex justify-center items-center">
-              <Image src={crossRef} />/
+              <Image src={crossRef} alt="" />/
               <ImQuotesLeft className="ml-1" />
             </div>
           </ul>
@@ -33,7 +33,7 @@ const Employees = () => {
           <ul className="flex justify-center items-center gap-4">
             <span>Citations</span>
             <div className="flex justify-center items-center">
-              <Image src={crossRef} />/
+              <Image src={crossRef} alt="" />/
               <ImQuotesLeft className="ml-1" />
             </div>
           </ul>
@@ -46,7 +46,7 @@ const Employees = () => {
           <ul className="flex justify-center items-center gap-4">
             <span>Citations</span>
             <div className="flex justify-center items-center">
-              <Image src={crossRef} />/
+              <Image src={crossRef} alt="" />/
               <ImQuotesLeft className="ml-1" />
             </div>
           </ul>
@@ -59,7 +59,7 @@ const Employees = () => {
           <ul className="flex justify-center items-center gap-4">
             <span>Citations</span>
             <div className="flex justify-center items-center">
-              <Image src={crossRef} />/
+              <Image src={crossRef} alt="" />/
               <ImQuotesLeft className="ml-1" />
             </div>
           </ul>
