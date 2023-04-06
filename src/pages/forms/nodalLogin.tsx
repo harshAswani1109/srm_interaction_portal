@@ -1,7 +1,7 @@
 import Footer from "../../../components/footer";
 import Navbar from "../../../components/navbar/navbar";
 import Image from "next/image";
-import logo from "../../public/assets/logo.png";
+
 import FF from "../../../components/facultyResource/facultyForm";
 
 const NodalLogin = () => {
@@ -15,7 +15,7 @@ const NodalLogin = () => {
               className="w-5/12 h-full border border-r-2 flex justify-center items-center"
               id="background"
             >
-              <Image src={logo} />
+              {/* <Image src={logo} alt="" /> */}
             </div>
             <div className="w-7/12 h-full border-l-2 flex justify-start items-left flex-col">
               <h1 className="px-10 text-2xl my-4">Login</h1>

@@ -13,7 +13,7 @@ const Navbar = () => {
   };
   return (
     <nav className="">
-      <div className="flex justify-between items-center h-28 mx-12">
+      <div className="flex justify-between items-center h-20 mx-12">
         <Link href="/">
           <ul className="font-Sniglet not-italic font-semibold mx-6 text-4xl tracking-widest  ">
             S R M I S T
@@ -41,12 +41,12 @@ const Navbar = () => {
                   </ul>
                 </Link>
 
-                <a href="/nodalOfficer">
+                <a href="/forms/nodalLogin">
                   <button className=" font-Montserrat font-semibold not-italic text-xl tracking-wider text-black  py-2 px-4 rounded-full">
                     Login as Nodal Officer
                   </button>
                 </a>
-                <a href="/faculty">
+                <a href="/forms/facultyLogin">
                   <button className=" font-Montserrat font-semibold not-italic text-xl tracking-wider text-black  py-2 px-4 rounded-full">
                     Login as Faculty
                   </button>

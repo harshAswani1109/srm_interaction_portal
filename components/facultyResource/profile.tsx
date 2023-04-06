@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import img1 from "../../srm-interaction-portal/public/assets/img1.jpg";
+import img1 from "../../../srm-interaction-portal/public/assets/img1.jpg";
 
 const Profile = () => {
   return (
