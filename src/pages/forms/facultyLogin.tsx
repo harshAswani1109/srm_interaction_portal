@@ -1,10 +1,11 @@
-import Footer from "../../components/footer";
-import Navbar from "../../components/navbar";
+import Footer from "../../../components/footer";
+import Navbar from "../../../components/navbar/navbar";
 import Image from "next/image";
 import logo from "../../public/assets/logo.png";
-import FF from "../../components/facultyForm";
+import FF from "../../../components/facultyResource/facultyForm";
+import React from "react";
 
-const Faculty = () => {
+const FacultyLogin = () => {
   return (
     <div>
       <div>
@@ -45,4 +46,4 @@ const Faculty = () => {
     </div>
   );
 };
-export default Faculty;
+export default FacultyLogin;

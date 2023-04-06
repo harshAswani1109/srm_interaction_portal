@@ -1,5 +1,5 @@
 import Link from "next/link";
-const Mi = () => {
+const MoreInfo = () => {
   return (
     <div className="border-black border-4 mx-12 mb-12">
       <h1 className="text-center text-[#30449e] mt-4 text-2xl">
@@ -91,4 +91,4 @@ const Mi = () => {
     </div>
   );
 };
-export default Mi;
+export default MoreInfo;

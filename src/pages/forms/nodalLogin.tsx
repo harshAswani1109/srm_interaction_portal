@@ -1,10 +1,10 @@
-import Footer from "../../components/footer";
-import Navbar from "../../components/navbar";
+import Footer from "../../../components/footer";
+import Navbar from "../../../components/navbar/navbar";
 import Image from "next/image";
 import logo from "../../public/assets/logo.png";
-import FF from "../../components/facultyForm";
+import FF from "../../../components/facultyResource/facultyForm";
 
-const Nodal = () => {
+const NodalLogin = () => {
   return (
     <div>
       <div>
@@ -54,4 +54,4 @@ const Nodal = () => {
     </div>
   );
 };
-export default Nodal;
+export default NodalLogin;
