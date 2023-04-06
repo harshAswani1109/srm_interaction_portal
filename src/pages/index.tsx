@@ -5,6 +5,7 @@ import Footer from "../../components/footer";
 import FacultyComponent from "../../components/landingComponents/faculty";
 import ScholarResources from "../../components/landingComponents/resources";
 import Impact from "../../components/landingComponents/impact";
+import Department from "../../components/landingComponents/department";
 export default function Home() {
   return (
     <>
@@ -15,13 +16,16 @@ export default function Home() {
       </Head>
       <main>
         <Navbar />
-        <div className="flex justify-center items-center flex-col my-10">
+        <div className="flex justify-center items-center flex-col gap-10 my-10">
           <div className="flex justify-center items-center flex-row gap-10 max-xl:flex-col">
             <FacultyComponent />
             <ScholarResources />
             <Impact />
           </div>
-          <div className="flex justify-evenly items-center flex-row"></div>
+          <div className="flex justify-center items-center flex-row "></div>
+          <div className="flex justify-evenly items-center flex-row gap-10 max-xl:flex-col">
+            <Department />
+          </div>
         </div>
         <Footer />
       </main>
