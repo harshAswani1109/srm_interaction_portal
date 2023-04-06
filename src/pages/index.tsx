@@ -2,6 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer";
+import FacultyComponent from "../../components/landingComponents/faculty";
+import ScholarResources from "../../components/landingComponents/resources";
 export default function Home() {
   return (
     <>
@@ -12,7 +14,10 @@ export default function Home() {
       </Head>
       <main>
         <Navbar />
-
+        <div className="flex justify-center items-center flex-row">
+          <FacultyComponent />
+          <ScholarResources />
+        </div>
         <Footer />
       </main>
     </>
