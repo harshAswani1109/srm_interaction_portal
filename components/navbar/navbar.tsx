@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import nav from "../../srm-interaction-portal/public/assets/navLogo.png";
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/Rx";
 
@@ -13,10 +12,10 @@ const Navbar = () => {
   };
   return (
     <nav className="">
-      <div className="flex justify-between items-center h-20 mx-12">
+      <div className="flex justify-between items-center h-24 mx-4">
         <Link href="/">
-          <ul className="font-Sniglet not-italic font-semibold mx-6 text-4xl tracking-widest  ">
-            S R M I S T
+          <ul className="font-Sniglet not-italic font-semibold text-4xl tracking-widest  ">
+            SRMIST
           </ul>
         </Link>
         <div className="flex items-center relative group z-10">
@@ -58,31 +57,22 @@ const Navbar = () => {
           </div>
         </div>
         <div className="max-lg:hidden flex justify-center items-center gap-8">
-          <a href="/">
-            <ul
-              className="font-Montserrat font-normal not-italic text-xl tracking-wider "
-              id="hoverText "
-            >
-              HOME
-            </ul>
-          </a>
-
-          <a href="/nodalOfficer">
+          <Link href="/forms/nodalLogin">
             <button
               className=" font-Montserrat font-semibold not-italic text-xl tracking-wider text-black  py-2 px-4 rounded-full"
               id="background"
             >
               Login as Nodal Officer
             </button>
-          </a>
-          <a href="/faculty">
+          </Link>
+          <Link href="/forms/facultyLogin">
             <button
               className=" font-Montserrat font-semibold not-italic text-xl tracking-wider text-black  py-2 px-4 rounded-full"
               id="background"
             >
               Login as Faculty
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
