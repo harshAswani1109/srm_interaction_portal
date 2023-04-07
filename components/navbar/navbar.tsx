@@ -11,7 +11,7 @@ const Navbar = () => {
     setdropdownOpen(!dropdownOpen);
   };
   return (
-    <nav className="">
+    <nav>
       <div className="flex justify-between items-center h-24 mx-4">
         <Link href="/">
           <ul className="font-Sniglet not-italic font-semibold text-4xl tracking-widest  ">

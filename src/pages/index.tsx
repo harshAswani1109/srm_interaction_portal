@@ -8,6 +8,7 @@ import Impact from "../../components/landingComponents/impact";
 import Department from "../../components/landingComponents/department";
 import Publications from "../../components/landingComponents/publications";
 import Employees from "../../components/landingComponents/topEmployee";
+import SearchBar from "../../components/herosection/searchbar";
 export default function Home() {
   return (
     <>
@@ -18,6 +19,7 @@ export default function Home() {
       </Head>
       <main>
         <Navbar />
+        <SearchBar />
         <div className="flex justify-center items-center flex-col gap-10 my-10">
           <div className="flex justify-center items-center flex-row gap-10 max-xl:flex-col">
             <FacultyComponent />
