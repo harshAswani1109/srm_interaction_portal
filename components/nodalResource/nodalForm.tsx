@@ -6,7 +6,7 @@ const NodalForm = () => {
           <fieldset className="border border-solid border-[#ff5901] px-2 rounded-lg  ">
             <legend className="px-5 mx-4">Email</legend>
             <input
-              type="text"
+              type="email"
               name="email"
               className="w-72 pb-2 pl-2 focus:outline-none focus:ring-0 focus:border-0 "
             />
@@ -14,7 +14,7 @@ const NodalForm = () => {
           <fieldset className="border border-solid border-[#ff5901] px-2 rounded-lg md:w-[35%] ">
             <legend className="px-3 mx-4">Password</legend>
             <input
-              type="text"
+              type="password"
               name="password"
               className="w-72 pb-2 pl-2 focus:outline-none focus:ring-0 focus:border-0 "
             />
