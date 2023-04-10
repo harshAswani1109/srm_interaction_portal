@@ -1,93 +1,27 @@
 import Link from "next/link";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
+import Pg1 from "@/pages/facultyPages/Pg1";
+import Pg2 from "@/pages/facultyPages/Pg2";
+import Pg3 from "@/pages/facultyPages/Pg3";
+import Pg4 from "@/pages/facultyPages/Pg4";
+import Pg5 from "@/pages/facultyPages/Pg5";
+import Pg6 from "@/pages/facultyPages/Pg6";
 const MoreInfo = () => {
   return (
-    <div className="border-black border-4 mx-12 mb-12">
-      <h1 className="text-center text-[#30449e] mt-4 text-2xl">
+    <div className="border-black border-4 bg-[#eaeffe]">
+      <h1 className="text-center text-[#30449e] my-4 text-2xl">
         <b>Profile</b>
       </h1>
 
-      <div className="flex justify-between align-items flex-col h-full gap-6 m-6 mx-4 mb-10 ">
-        <div className="flex justify-between align-items h-full gap-6 mt-6 mx-4 mb-10 max-md:flex-col">
-          <div className="w-4/12 h-72  border-4 ">
-            <h1 className="text-center my-4  text-xl">
-              <b> Personal Information</b>
-            </h1>
-            <hr></hr>
-          </div>
-          <div className="w-4/12 h-72 border-black border-4 ">
-            <h1 className="text-center my-4  text-xl">
-              <b>Expertise</b>
-            </h1>
-            <hr></hr>
-          </div>
-          <div className="w-4/12 h-72  border-4 ">
-            <h1 className="text-center my-4  text-xl">
-              <b>Contact Information</b>
-            </h1>
-            <hr></hr>
-          </div>
-        </div>
-        <div className="flex justify-between align-items h-full gap-6 mt-6 mx-4 mb-10 max-md:flex-col">
-          <div className="w-4/12 h-72  border-4 ">
-            <h1 className="text-center my-4  text-xl">
-              <b> Experience</b>
-            </h1>
-            <hr></hr>
-          </div>
-          <div className="w-4/12 h-72 border-black border-4 ">
-            <h1 className="text-center my-4  text-xl">
-              <b>Honours and Awards</b>
-            </h1>
-            <hr></hr>
-          </div>
-          <div className="w-4/12 h-72  border-4 ">
-            <h1 className="text-center my-4  text-xl">
-              <b>Qualifications</b>
-            </h1>
-            <hr></hr>
-          </div>
-        </div>
-        <div className="flex justify-between align-items h-full gap-6 mt-6 mx-4 mb-10 max-md:flex-col">
-          <div className="w-4/12 h-72  border-4 ">
-            <h1 className="text-center my-4  text-xl">
-              <b>Thesis</b>
-            </h1>
-            <hr></hr>
-          </div>
-          <div className="w-4/12 h-72 border-black border-4 ">
-            <h1 className="text-center my-4  text-xl">
-              <b>Research Projects</b>
-            </h1>
-            <hr></hr>
-          </div>
-          <div className="w-4/12 h-72  border-4 ">
-            <h1 className="text-center my-4  text-xl">
-              <b>Patent</b>
-            </h1>
-            <hr></hr>
-          </div>
-        </div>
-        <div className="flex justify-between align-items h-full gap-6 mt-6 mx-4 mb-10 max-md:flex-col">
-          <div className="w-4/12 h-72  border-4 ">
-            <h1 className="text-center my-4  text-xl">
-              <b>Professional Bodies</b>
-            </h1>
-            <hr></hr>
-          </div>
-          <div className="w-4/12 h-72 border-black border-4 ">
-            <h1 className="text-center my-4  text-xl">
-              <b>Publications</b>
-            </h1>
-            <hr></hr>
-          </div>
-          <div className="w-4/12 h-72  border-4 ">
-            <h1 className="text-center my-4  text-xl">
-              <b>Committees</b>
-            </h1>
-            <hr></hr>
-          </div>
-        </div>
-      </div>
+      <Carousel className="">
+        <Pg1 />
+        <Pg2 />
+        <Pg3 />
+        <Pg4 />
+        <Pg5 />
+        <Pg6 />
+      </Carousel>
     </div>
   );
 };

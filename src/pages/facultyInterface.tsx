@@ -18,7 +18,7 @@ const FacultyInterface = () => {
           <Pd />
         </div>
       </div>
-      <MoreInfo />
+
       <Footer />
     </div>
   );
