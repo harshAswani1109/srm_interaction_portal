@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import img1 from "../../public/assets/img1.jpg";
 import { MdNotificationsNone } from "react-icons/md";
 import { DiMagento } from "react-icons/di";
 import { BsSearch } from "react-icons/bs";
@@ -7,9 +9,14 @@ const Welcome = () => {
   return (
     <div className="flex justify-between sm:mx-14 h-14 items-center max-sm:ml-6 my-4">
       <div className="text-4xl font-semibold  max-sm:text-2xl flex flex-row justify-center items-center gap-4">
-        <DiMagento className="h-8 w-8" />
+        <Link
+          href="/facultyInterface"
+          className="flex items-center sm:px-3 py-1 space-x-3 px-1"
+        >
+          <Image src={img1} alt="" className="h-12 w-12 rounded-3xl" />
+        </Link>
         Welcome back,
-        <span className="tracking-wider text-[#ff5901]">Vadivu!</span>
+        <span className="tracking-wider text-[#ff5901]">Vadivu G!</span>
       </div>
       <div>
         <div className="flex items-center justify-between flex-row rounded-lg border-2 px-4 py-2">

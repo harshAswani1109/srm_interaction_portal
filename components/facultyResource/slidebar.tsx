@@ -1,5 +1,7 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import img1 from "../../public/assets/img1.jpg";
 import { TbHomeEco } from "react-icons/tb";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { MdOutlineConnectWithoutContact } from "react-icons/md";
@@ -13,12 +15,14 @@ import { MdOutlineAppRegistration } from "react-icons/md";
 import { RiSearchEyeLine } from "react-icons/ri";
 import { MdGroups } from "react-icons/md";
 import { TbBrandSpacehey } from "react-icons/tb";
+import { AiOutlineLogout } from "react-icons/ai";
+import { TbPhotoSensor2 } from "react-icons/tb";
 
 export default function Sidebar() {
   return (
     <div className="flex flex-col h-screen p-2 shadow w-full text-white text-xl">
       <div className="space-y-3">
-        <div className="flex-1">
+        <div className="flex justify-between flex-col gap-5">
           <ul className="p pb-4 space-y-1 w-full">
             <Link
               href="/facultyInterface"
@@ -27,7 +31,13 @@ export default function Sidebar() {
               <TbHomeEco className="h-8 w-8" />
               <span>Home</span>
             </Link>
-
+            <Link
+              href="/"
+              className="flex items-center sm:px-3 py-1 space-x-3 gap-4 px-1"
+            >
+              <TbPhotoSensor2 className="h-8 w-8" />
+              <span>Change Profile</span>
+            </Link>
             <Link
               href="/"
               className="flex items-center sm:px-3 py-1 space-x-3 gap-4 px-1"
@@ -111,6 +121,22 @@ export default function Sidebar() {
             >
               <TbBrandSpacehey className="h-8 w-8" />
               <span>Professional Bodies</span>
+            </Link>
+          </ul>
+          <ul className="flex gap-2">
+            <Link
+              href="/facultyInterface"
+              className="flex items-center sm:px-3 py-1 space-x-3 px-1"
+            >
+              <Image src={img1} alt="" className="h-12 w-12 rounded-3xl" />
+              <span>Vadivu G</span>
+            </Link>
+            <Link
+              href="/"
+              className="flex items-center sm:px-3 py-1 space-x-3 px-1"
+            >
+              <AiOutlineLogout className="h-8 w-8" />
+              <span>Logout</span>
             </Link>
           </ul>
         </div>
