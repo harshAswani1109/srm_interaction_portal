@@ -1,14 +1,16 @@
 import MoreInfo from "../../../components/facultyResource/moreInfo";
+import Slider from "../../../components/facultyResource/slidebar";
 import Footer from "../../../components/footer";
 import Navbar from "../../../components/navbar/navbar";
 
 const FacultyEdit = () => {
   return (
     <div>
-      <Navbar />
-      <div className="flex justify-between items-center w-full">
-        <div className="h-full 2/12">Faculty Edit</div>
-        <div className="w-10/12 bg-slate-500">
+      <div className="flex justify-between items-center w-full h-full">
+        <div className="w-3/12 bg-[#5479fe]">
+          <Slider />
+        </div>
+        <div className="w-98/12">
           <MoreInfo />
         </div>
       </div>

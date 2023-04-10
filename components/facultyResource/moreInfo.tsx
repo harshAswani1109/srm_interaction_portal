@@ -9,8 +9,8 @@ import Pg5 from "@/pages/facultyPages/Pg5";
 import Pg6 from "@/pages/facultyPages/Pg6";
 const MoreInfo = () => {
   return (
-    <div className="border-black border-4 bg-[#eaeffe]">
-      <h1 className="text-center text-[#30449e] my-4 text-2xl">
+    <div className="h-screen bg-[#eaeffe]">
+      <h1 className="text-center text-[#30449e] py-4 text-2xl">
         <b>Profile</b>
       </h1>
 
