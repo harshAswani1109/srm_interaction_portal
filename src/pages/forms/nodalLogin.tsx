@@ -36,9 +36,12 @@ const NodalLogin = () => {
             </Link>
           </div>
         </div>
-        <div className="flex justify-center items-center w-1/2 bg-[#feece1]  ">
+        <Link
+          href="/forms/facultyLogin"
+          className="flex justify-center h-full items-center w-1/2 bg-[#feece1]  "
+        >
           <Image alt="" src={logo} height={200} />
-        </div>
+        </Link>
       </div>
     </div>
   );

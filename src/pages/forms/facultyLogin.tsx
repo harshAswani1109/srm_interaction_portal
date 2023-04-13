@@ -10,9 +10,12 @@ const FacultyLogin = () => {
   return (
     <div className="flex justify-center items-center w-full bg-[#feece1] h-screen">
       <div className="flex flex-row h-[80vh] w-[80vw] shadow-lg shadow-[#ff5901] justify-center items-center ">
-        <div className="flex justify-center items-center h-full w-1/2 bg-white max-[845px]:hidden">
+        <Link
+          href="/forms/nodalLogin"
+          className="flex justify-center items-center h-full w-1/2 bg-white max-[845px]:hidden"
+        >
           <Image alt="" src={logo} height={200} />
-        </div>
+        </Link>
         <div className="flex justify-center items-center flex-col w-1/2 bg-[#feece1]  ">
           <h1 className="px-10 text-5xl mb-8 text-[#ff5901]">Login</h1>
           <FacultyForm />
