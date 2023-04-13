@@ -10,7 +10,7 @@ const FacultyEdit = () => {
         <div className="w-3/12 bg-[#5479fe]">
           <Slider />
         </div>
-        <div className="w-98/12">
+        <div className="w-9/12">
           <MoreInfo />
         </div>
       </div>
