@@ -1,14 +1,15 @@
-import Profile from "../../components/facultyResource/profile";
-import Pd from "../../components/facultyResource/profileData";
-import MoreInfo from "../../components/facultyResource/moreInfo";
-import Navbar from "../../components/navbar/navbar";
-import Footer from "../../components/footer";
-import Welcome from "../../components/herosection/welcome";
-import Image from "next/image";
-import graph from "../../public/assets/gip.gif";
-import Link from "next/link";
-import img1 from "../../public/assets/img1.jpg";
-import { AiOutlineLogout } from "react-icons/ai";
+import Profile from '../../components/facultyResource/profile';
+import Pd from '../../components/facultyResource/profileData';
+import MoreInfo from '../../components/facultyResource/moreInfo';
+import Navbar from '../../components/navbar/navbar';
+import Footer from '../../components/footer';
+import Welcome from '../../components/herosection/welcome';
+import Image from 'next/image';
+import graph from '../../public/assets/gip.gif';
+import Link from 'next/link';
+import img1 from '../../public/assets/img1.jpg';
+import { AiOutlineLogout } from 'react-icons/ai';
+import GraphComponent from '../../components/facultyResource/graph';
 
 const FacultyInterface = () => {
   return (
@@ -76,7 +77,7 @@ const FacultyInterface = () => {
         </div>
       </div>
       <div className="flex justify-center items-center border-4 mx-12 mb-8 max-xl:flex-col mt-4">
-        <Image src={graph} alt="" className="h-[600px] w-full" />
+        <GraphComponent vidwanId="306090" />
       </div>
       <Footer />
     </div>

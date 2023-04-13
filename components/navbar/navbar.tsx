@@ -1,13 +1,13 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
-import { RxHamburgerMenu } from "react-icons/Rx";
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
+// import { RxHamburgerMenu } from "react-icons/Rx";
 
 const Navbar = () => {
   const [dropdownOpen, setdropdownOpen] = useState(false);
   const handleFunction = () => {
-    console.log("instance");
+    console.log('instance');
     setdropdownOpen(!dropdownOpen);
   };
   return (
@@ -21,10 +21,10 @@ const Navbar = () => {
         <div className="flex items-center relative group z-10">
           <div className="hidden max-lg:block">
             <div className=" w-10 h-10 flex justify-center items-center hover:cursor-pointer ">
-              <RxHamburgerMenu
+              {/* <RxHamburgerMenu
                 className="h-full w-full"
                 onClick={handleFunction}
-              />
+              /> */}
             </div>
             {dropdownOpen ? (
               <div
@@ -52,7 +52,7 @@ const Navbar = () => {
                 </a>
               </div>
             ) : (
-              ""
+              ''
             )}
           </div>
         </div>
